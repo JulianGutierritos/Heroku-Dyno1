@@ -19,7 +19,7 @@ public class CalculadoraApp {
 		if (funcion.equals("cos")){
 			res = Math.cos(numero);
 		}
-		else if (funcion.equals("sen")){
+		else if (funcion.equals("sin")){
 			res = Math.sin(numero);
 		}
 		else if (funcion.equals("tan")){

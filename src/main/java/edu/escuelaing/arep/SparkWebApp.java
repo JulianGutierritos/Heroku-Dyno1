@@ -23,7 +23,7 @@ public class SparkWebApp {
 			try {
 				double num = Double.parseDouble(numero);
 				String resp = CalculadoraApp.getTrig(funcion, num);
-				res.type("json");
+				res.type("application/json");
 				return resp;
 			} catch (Exception e){
 				res.status(404);
